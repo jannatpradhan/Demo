@@ -19,7 +19,6 @@
     background-position: bottom left;
     width: 600px;
     height: 410px;
-    display: block;
     -webkit-box-shadow: 0 4px 10px #666;
     -moz-box-shadow: 0 4px 10px #666;
     -ms-box-shadow: 0 4px 10px #666;
@@ -48,6 +47,7 @@
   <h1>Magazine</h1>
 <div class="bookshelf">
   <div id="flipbook">
+    <div><img class="imgfile" src="01.jpg" /></div>
     <?php 
       foreach ($data as $values){
     ?>
